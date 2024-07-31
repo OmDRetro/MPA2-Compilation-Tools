@@ -2,7 +2,7 @@
 //  MPA Header Generator by OmDRetro  //
 //                                    //
 //Code is based on my "NameChangeArgs"//
-//  Updated: 8/01/2024                //
+//  Updated: 8/01/2024 rev 1          //
 ////////////////////////////////////////
 
 
@@ -43,6 +43,7 @@ void mpa2_f(char path[], struct mpa2_minih *head, char *out){
 
     strncpy(head->songtitle, dir_sep, f_end - dir_sep);
     strncpy(filetitle, dir_sep, f_end - dir_sep);
+    filetitle[f_end - dir_sep] = '\0'; // Ensure no issue
     head->songtitle[f_end - dir_sep] = '\0';
 
     strcat(out,filetitle);

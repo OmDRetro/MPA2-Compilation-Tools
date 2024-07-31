@@ -26,4 +26,5 @@ for %%f in ("%input_dir%\*.mpa") do (
 )
 
 echo.
-echo Complete.
+echo Step 3a is complete. Please execute Step 3b after closing this window.
+pause
