@@ -3,9 +3,9 @@ A set of tools to create album ROMs to load via Music Player Advance 2 by NEiM0D
 
 # Prerequisites
  - Download the ffmpeg binaries
-     - Option 1: Obtain ffmpeg-release-essentials archive from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
+     - Option 1: Obtain the ffmpeg-release-essentials archive from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
 	     - Under release builds, look for `ffmpeg-release-essentials.7z` or `ffmpeg-release-essentials.zip`
-	 - Option 2: Get the latest Github release from [Github](https://github.com/BtbN/FFmpeg-Builds/releases)
+	 - Option 2: Get the latest Github release from [here](https://github.com/BtbN/FFmpeg-Builds/releases)
 	     - `ffmpeg-master-latest-win64-gpl.zip` should contain the standalone binaries
 		     - _DO NOT DOWNLOAD THE SHARED VERSION!_
 
@@ -28,12 +28,6 @@ A set of tools to create album ROMs to load via Music Player Advance 2 by NEiM0D
 	 - Move the `MPAWRITE.exe` binary to `MPA2_Tools\Step2-MPA_conversion\`
 	     - This is actually optional if you know what to do, but for the sake of this tutorial we'll place the application there.
  - Copy your music to `MPA2_Tools\Step1-PCM_conversion\Input\`
-     - As of now, I hardcoded the ff. input formats:
-	     - ogg
-	     - wav
-	     - m4a
-	     - mp3
-		 - I'll add more as soon as I get the full list of supported formats in ffmpeg.
  - After copying your music, open the `Convert2PCM.bat` file
      - It will ask you for what kind of quality you want for each audio file
 	 - Enter your choice then press enter.
