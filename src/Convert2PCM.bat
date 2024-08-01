@@ -15,7 +15,7 @@ set "ffmpeg_path=.\bin\ffmpeg.exe"
 if not exist "%input_dir%" mkdir "%input_dir%"
 if not exist "%output_dir%" mkdir "%output_dir%"
 
-for %%f in ("%input_dir%\*.mp3" "%input_dir%\*.m4a" "%input_dir%\*.wav" "%input_dir%\*.ogg") do (
+for %%f in ("%input_dir%\.aac" "%input_dir%\.ac3" "%input_dir%\.ac4" "%input_dir%\.alaw" "%input_dir%\.amr" "%input_dir%\.ape" "%input_dir%\.aptx" "%input_dir%\.awb" "%input_dir%\.caf" "%input_dir%\.dts" "%input_dir%\.dtshd" "%input_dir%\.eac3" "%input_dir%\.flac" "%input_dir%\.gsm" "%input_dir%\.m4a" "%input_dir%\.mlp" "%input_dir%\.mp1" "%input_dir%\.mp2" "%input_dir%\.mp3" "%input_dir%\.mp4" "%input_dir%\.mpc" "%input_dir%\.mulaw" "%input_dir%\.ogg" "%input_dir%\.oma" "%input_dir%\.opus" "%input_dir%\.wav" "%input_dir%\.wv") do (
     set "file_name=%%~nf"  REM Corrected line: use %%~nf to get the file name without extension
     set "file_ext=%%~xf"
 
