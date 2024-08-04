@@ -61,7 +61,3 @@ A set of tools to create album ROMs to load via Music Player Advance 2 by NEiM0D
 		 - Rename the `ALBUM.MPAC` to whatever you want, but do retain the file extension `*.MPAC`
 	 - Transfer the `ALBUM` ROM to your microSD card.
  - Open the MPAC rom within SCFW and enjoy the beats 🎶
-
-# Changelog
-### Version 0.0.1b
- - Slight fixes to the `MPAhGen.exe` application ~ revision 1
